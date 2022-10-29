@@ -127,15 +127,15 @@ int twobited(string str,int c){
         p=0;
     }
     if((p==0)&&(c==0)){
-        cout<<"No error eccured\n";
+        cout<<"No error occured\n";
         return 0;
     }
     else if((p==1)&&(c!=0)){
-        cout<<"single error eccured\n";
+        cout<<"single error occured\n";
         return 0;
     }
     else if((p==0)&&(c!=0)){
-        cout<<"double error eccured\n";
+        cout<<"double error occured\n";
         return 0;
     }
 }

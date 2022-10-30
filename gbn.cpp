@@ -19,7 +19,7 @@ int main(void) {
         }
         int lost = rand() % n;
         cout << ln << "No ack for frame " << lost << ln;
-        cout << "Retransmitting..." << ln;;
+        cout << "Retransmitting..." << ln;
         for(int i=0; i<n; i++) {
             cout << "Sending frame " << i << " --->" << ln;
         }

@@ -127,7 +127,7 @@ int twobited(string str,int c){
         p=0;
     }
     if((p==0)&&(c==0)){
-        cout<<"No error occured\n";
+        cout<<"No error ccured\n";
         return 0;
     }
     else if((p==1)&&(c!=0)){
